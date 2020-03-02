@@ -1,3 +1,7 @@
+// 203 Battleship Game Lab
+// 2 March 2020
+// Brian Lee, Jason Lee, Ling Xiu
+
 import controlP5.*;
 ControlP5 cp5;
 
