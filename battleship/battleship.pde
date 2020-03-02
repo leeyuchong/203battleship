@@ -116,6 +116,14 @@ void setup() {
     .setColorValue(0xff5edfe0)
     .setFont(loadFont("Uroob-20.vlw"))
     ;
+    
+  //instructional text on the left panel of the main dashboard
+  cp5.addTextlabel("instructions2")
+    .setText(instruction)
+    .setPosition(553, 692)
+    .setColorValue(0xff5edfe0)
+    .setFont(loadFont("Uroob-20.vlw"))
+    ;
 
   //status text on the right panel of the main dashboard
   //information about the player 1 making moves
