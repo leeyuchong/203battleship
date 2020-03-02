@@ -1,0 +1,17 @@
+As a user who wants to play Battleship, I want a grid to put on my ships.
+- Get a grid, user specify the size of the grid
+- GUI
+  - Grid
+  - Ship images
+- MouseEvents to select boxes on the screen
+  - Click to draw X on the grid so the user knows they have put the ship
+- Keyboard events to rotate the ship
+-
+
+As a user who wants to play Battleship, I want to input tiles to hit the opponent's ships
+
+As a user who wants to play Battleship, I want a tally system so I know how many ships I've hit and when I have won
+
+As a user who wants to play Battleship, I want to know what time it is because time is important
+
+As a user who wants to play Battleship, I want to animation when I get a hit
