@@ -22,8 +22,9 @@ String horizontalLabel = "";
 String verticalLabel = "";
 
 //interface text
-String helpText = "   It's your turn! Click a square in the \n grid above to try and take down \nthe enemy ships!";
-String turnText = "Turn: PLAYER 1";
+String helpText = "   It's your turn ! Click a square in the \n grid above to try and take down \nthe enemy ships !";
+String instruction = "          Both players start with 3 ships that\n        take up 3, 6, and 9 squares each.\n      Remember, the ships could be in any\n    shape so long as they are contiguous.\n  Let's hope that you can hit the critical\n components (i.e. the cockpits, engines)\nfor a quicker takedown ! Good luck ! !";
+String turnText = "PLAYER 1's Turn";
 String shipsRemainingText = "Ships Remaining";
 String statsLabelYours = "Yours: ";
 String statsLabelOpp = "Opponent's: ";
@@ -111,7 +112,7 @@ void setup() {
   //instructional text on the left panel of the main dashboard
   cp5.addTextlabel("instructions")
     .setText(helpText)
-    .setPosition(590, 680)
+    .setPosition(590, 630)
     .setColorValue(0xff5edfe0)
     .setFont(loadFont("Uroob-20.vlw"))
     ;
